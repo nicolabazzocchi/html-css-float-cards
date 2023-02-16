@@ -1,68 +1,64 @@
-
 *{
-  margin:0;
+  margin: 0;
   padding: 0;
-  box-sizing:border-box ;
+  box-sizing: border-box;
 }
-
 body{
-  width: 80%;
-  max-width: 1170px;
-  margin:0 auto;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-family: 'Fredoka One', cursive;
-
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
 .clearfix::after{
-  content:"";
+  content: "";
   display: table;
   clear: both;
-
 }
 
+/*Header*/
 header h1{
-  color:rgb(233, 64, 64);
-  padding: 40 0;
+  color: #e53170;
+  padding: 30px 0;
+  font-weight: 580;
+  font-family: 'Fredoka One', cursive;
 }
-
-.txt{
-  margin:40px;
-  padding-bottom:40px ;
-  font-family: 'Roboto', sans-serif;
+/*Main*/
+.text{
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.container{
+  padding-bottom: 20px;  
+}
+.card{
+  width: calc(100% / 3 - 20px);
+  height: 100px;
+  background-color: #0f0e17;
+  float: left;
+  margin: 10px;
 }
 .card img{
   width: 100px;
   height: 100px;
   float: left;
 }
-
-.card{
-  width: calc(100%/ 3 -20px);
-  height: 100px;
-  background-color: black;
-  margin:15px;
-  float: left;
-  
-
-}
 .info{
   color: white;
   float: left;
   text-align: left;
+  font-size: 15px;
 }
-
 .nome{
-  margin: 15px 20px 10px 20px;  
-}
-.style{
   font-family: 'Fredoka One', cursive;
-  font-size: 10px;
-  margin: 10px 20px;
-
+  margin: 15px 20px 10px 20px;
 }
-.color{
-  color:rgb(81, 81, 223);
-  margin: 0px 20px;
-
+.impiego{
+  font-size: 13px;
+  margin: 10px 20px;
+}
+.mail{
+  font-size: 13px;
+  color: #02a9e3;
+  margin: 10px 20px;
 }
